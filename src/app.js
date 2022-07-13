@@ -1,7 +1,7 @@
 const { request } = require('express');
 const express = require('express');
 
-const mainRouter = require('./routes/main');
+const mainRouter = require('./routes/main.routes');
 
 const app = express();
 
